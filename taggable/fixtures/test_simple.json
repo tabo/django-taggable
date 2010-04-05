@@ -1,0 +1,645 @@
+[
+    {
+        "pk": 1, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 3
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 3
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 2
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "taggable.simplestats", 
+        "fields": {
+            "count": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 1, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 2, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 3, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 3, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 3, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 4, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 4, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 4, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 4, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 5, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 5, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 5, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 6, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 6, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 6, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 7, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 8, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 9, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 9, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 10, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 11, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 12, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 13, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 14, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 15, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 16, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 17, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 18, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 19, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 20, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "taggable.simpletagged", 
+        "fields": {
+            "tag": 21, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 1, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 2, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 3, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 3, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 3, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 4, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 4, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 4, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 4, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 5, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 5, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 5, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 6, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 6, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 6, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 7, 
+            "monster": 1
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 8, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 9, 
+            "monster": 2
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 9, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 10, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 11, 
+            "monster": 3
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 12, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 13, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 14, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 15, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 16, 
+            "monster": 4
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 17, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 18, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 19, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 20, 
+            "monster": 5
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "taggable.simpletaggednostats", 
+        "fields": {
+            "tag": 21, 
+            "monster": 5
+        }
+    }
+]

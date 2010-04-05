@@ -1,0 +1,79 @@
+[
+    {
+        "pk": 1, 
+        "model": "taggable.monster", 
+        "fields": {
+            "name": "Balor"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.monster", 
+        "fields": {
+            "name": "Hezrou"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.monster", 
+        "fields": {
+            "name": "Vrock"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "taggable.monster", 
+        "fields": {
+            "name": "Imp"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "taggable.monster", 
+        "fields": {
+            "name": "Zombie"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "taggable.user", 
+        "fields": {
+            "name": "tabo"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.user", 
+        "fields": {
+            "name": "Alex"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.user", 
+        "fields": {
+            "name": "Drago"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "taggable.category", 
+        "fields": {
+            "name": "Demon"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.category", 
+        "fields": {
+            "name": "Devil"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.category", 
+        "fields": {
+            "name": "Zombie"
+        }
+    }
+]

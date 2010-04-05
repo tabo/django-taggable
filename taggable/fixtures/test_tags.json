@@ -1,0 +1,149 @@
+[
+    {
+        "pk": 1, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "huge"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "lvl27"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "demon"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "humanoid"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "elemental"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "brute"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "elite"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "lvl22"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "large"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "skirmisher"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "lvl13"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "lurker"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "tiny"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "immortal"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "devil"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "lvl3"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "undead"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "medium"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "natural"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "lvl2"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "taggable.tag", 
+        "fields": {
+            "name": "animate"
+        }
+    }
+]

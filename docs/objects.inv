@@ -1,0 +1,6 @@
+# Sphinx inventory version 1
+# Project: django-taggable
+# Version: 0.01
+taggable.models mod index.html
+taggable.exceptions mod index.html
+taggable mod index.html
