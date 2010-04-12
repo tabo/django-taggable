@@ -39,11 +39,9 @@ class Tagged(models.Model):
         for fields, statsmodel in self.taggable_stats.items():
             qdict = dict(self.taggable_get_fields(fields))
             qset = statsmodel.objects.filter(**qdict)
-
             updated_rows = qset.update(count=models.F('count') + 1)
             if updated_rows == 0:
                 # 0 rows updated, this means we need to create a stats entry
-                qdict = dict(self.taggable_get_fields(fields))
                 qdict['count'] = 1
                 statsmodel(**qdict).save(force_insert=True)
 
