@@ -39,13 +39,11 @@ class TaggedQuerySet(models.query.QuerySet):
 
         for tagged in self:
             for fields, statsmodel in tagged.taggable_stats.items():
-                statsmodel.objects.filter(
-                    **dict(tagged.taggable_get_fields(fields))).filter(
+                qdict = dict(tagged.taggable_get_fields(fields))
+                statsmodel.objects.filter(**qdict).filter(
                     count__lte=1).delete()
-                statsmodel.objects.filter(
-                    **dict(tagged.taggable_get_fields(fields))).filter(
-                    count__gte=2).update(
-                    count=models.F('count') - 1)
+                statsmodel.objects.filter(**qdict).filter(
+                    count__gte=2).update(count=models.F('count') - 1)
 
         super(TaggedQuerySet, self).delete()
 
