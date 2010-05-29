@@ -1,1 +1,0 @@
-Search.setIndex({desctypes:{},terms:{pre:0,taggabl:0,search:0,liter:0,span:0,index:0,docutil:0,modul:0,indic:0,django:0,tag:0,tabl:0,effici:0,implement:0,"class":0,page:0},titles:["<tt class=\"docutils literal\"><span class=\"pre\">taggable</span></tt> &#8212; Efficient tagging implementation for Django"],modules:{},descrefs:{},filenames:["index"]})
