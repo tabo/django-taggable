@@ -14,8 +14,8 @@ is a library that implements a efficient tagging implementations for the
   `delicious <https://tabo.pe/projects/tagtools/docs/tip/delicious.html>`_,
   `etc <https://tabo.pe/projects/tagtools/docs/tip/comma.html>`_), or
   define your own. You can also easily have several tag fields per object or
-  have different tag "namespaces" to be used between one, some or all your
-  taggable objects. Your code, your choice.
+  have different tag "namespaces" to be used between one, some, or all your
+  taggable objects. Your project, your choice.
 - **Sane**: No GenericForeignKey madness.
 - **Easy**: Uses `Django Model Inheritance with abstract classes`_
   to define your own models. The API isn't "magical".
