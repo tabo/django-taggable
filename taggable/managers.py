@@ -10,8 +10,10 @@ class TaggedManager(models.Manager):
 
     def _kwargs(self):
         try:
+            # django 1.2+
             return {'using': self._db}
         except AttributeError:
+            # django 1.1
             return {}
 
     def get_empty_query_set(self):
