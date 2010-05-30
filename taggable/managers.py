@@ -1,14 +1,4 @@
-"""
-
-    taggable.managers
-    -----------------
-
-    Django managers.
-
-    :copyright: 2010 by Gustavo Picon
-    :license: Apache License 2.0
-
-"""
+"Taggable managers"
 
 from django.db import models
 from taggable.querysets import TaggedQuerySet, EmptyTaggedQuerySet

@@ -1,14 +1,4 @@
-"""
-
-    taggable.tests
-    --------------
-
-    Unit tests.
-
-    :copyright: 2010 by Gustavo Picon
-    :license: Apache License 2.0
-
-"""
+"Taggable unit/functional tests"
 
 import functools
 

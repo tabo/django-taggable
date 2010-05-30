@@ -1,14 +1,4 @@
-"""
-
-    taggable.models
-    ---------------
-
-    Django models.
-
-    :copyright: 2010 by Gustavo Picon
-    :license: Apache License 2.0
-
-"""
+"Taggable models"
 
 from django.db import models
 from taggable.managers import TaggedManager

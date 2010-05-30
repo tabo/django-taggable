@@ -1,14 +1,4 @@
-"""
-
-    taggable.signals
-    ----------------
-
-    Signals and signal-related stuff.
-
-    :copyright: 2008 by Gustavo Picon
-    :license: Apache License 2.0
-
-"""
+"Taggable signals"
 
 from django.db import models, transaction
 
