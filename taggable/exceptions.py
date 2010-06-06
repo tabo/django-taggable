@@ -2,6 +2,5 @@
 
 
 class InvalidFields(Exception):
-    """ TODO: InvalidFields docstring
-    """
+    "Raised when passing an invalid/nonexistant field for an object"
     pass

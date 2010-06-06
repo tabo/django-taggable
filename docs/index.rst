@@ -16,7 +16,7 @@ is a library that implements a efficient tagging implementations for the
   define your own. You can also easily have several tag fields per object or
   have different tag "namespaces" to be used between one, some, or all your
   taggable objects. Your project, your choice.
-- **Fast**: No `GenericForeignKey`_ madness.
+- **Fast/Safe/Sane**: No `GenericForeignKey`_ madness.
 - **Easy**: Uses `Django Model Inheritance with abstract classes`_
   to define your own models. The API isn't "magical".
 - **Clean**: Testable and well tested code base. Code/branch test coverage
