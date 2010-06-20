@@ -5,10 +5,10 @@ from taggable.querysets import TaggedQuerySet, EmptyTaggedQuerySet
 
 
 class TaggedManager(models.Manager):
-    """ Manager for the Tagged abstract class.
-    """
+    "Manager for the Tagged abstract class. Subclass if needed."
 
     def _kwargs(self):
+        "Returns **kwargs to be used by the get query set methods"
         try:
             # django 1.2+
             return {'using': self._db}
@@ -17,11 +17,7 @@ class TaggedManager(models.Manager):
             return {}
 
     def get_empty_query_set(self):
-        """ TODO: docstring
-        """
         return EmptyTaggedQuerySet(self.model, **self._kwargs())
 
     def get_query_set(self):
-        """ TODO: docstring
-        """
         return TaggedQuerySet(self.model, **self._kwargs())

@@ -2,19 +2,14 @@
 
 from django.db import models
 from taggable.managers import TaggedManager
-from taggable.querysets import _queryset_filter_with_counts
+from taggable.querysets import queryset_filter_with_counts
 from taggable.exceptions import InvalidFields
 
 
 class Tagged(models.Model):
-    """ TODO: Tagged abstract class.
-    """
-
     objects = TaggedManager()
 
     def taggable_get_fields(self, fields):
-        """ TODO: taggable_get_fields docstring.
-        """
         results = []
         for field in fields:
             val = self.__getattribute__(field)
@@ -22,8 +17,7 @@ class Tagged(models.Model):
         return results
 
     def save(self, *args, **kwargs):
-        """ Saves the tagged object and handles the stats table maintenance.
-        """
+        "Saves the tagged object and handles the stats table maintenance."
         super(Tagged, self).save(*args, **kwargs)
 
         for fields, statsmodel in self.taggable_stats.items():
@@ -37,8 +31,6 @@ class Tagged(models.Model):
 
     @classmethod
     def tag_count(cls, **fields):
-        """ TODO: tag_count docstring
-        """
         key = tuple(sorted(fields.keys()))
         if key in cls.taggable_stats:
             model = cls.taggable_stats[key]
@@ -50,8 +42,6 @@ class Tagged(models.Model):
 
     @classmethod
     def _check_fields(cls, allfields=False, includetag=False, **fields):
-        """ TODO: _check_fields docstring
-        """
         keys_set = set(fields.keys())
         if includetag:
             tagged_fields = cls.taggable_taggedfields
@@ -66,8 +56,6 @@ class Tagged(models.Model):
 
     @classmethod
     def add_tag(cls, tag, **fields):
-        """ TODO: add_tag docstring
-        """
         cls._check_fields(allfields=True, includetag=False, **fields)
         fields['tag'] = tag
         try:
@@ -79,8 +67,6 @@ class Tagged(models.Model):
 
     @classmethod
     def update_tags(cls, tags, **fields):
-        """ TODO: update_tags docstring
-        """
         cls._check_fields(allfields=True, includetag=False, **fields)
         if not tags:
             tags = []
@@ -91,8 +77,6 @@ class Tagged(models.Model):
 
     @classmethod
     def get_tags(cls, counts=False, qfilter=None, **fields):
-        """ TODO: update_tags docstring
-        """
         return cls.get_tagged_fields(fieldname='tag',
                                      counts=counts,
                                      qfilter=qfilter,
@@ -101,8 +85,6 @@ class Tagged(models.Model):
     @classmethod
     def get_tagged_fields(cls, fieldname, counts=False, qfilter=None,
                           **fields):
-        """ TODO: get_tagged_fields docstring
-        """
         cls._check_fields(allfields=False, includetag=True, **fields)
         if cls.taggable_sorted_stats:
             model = cls._meta.get_field_by_name(fieldname)[0].rel.to
@@ -119,7 +101,7 @@ class Tagged(models.Model):
                     qset = qset.values(*tagfields + ['count'])
                 else:
                     qset = qset.values(*tagfields).distinct()
-                return _queryset_filter_with_counts(qset, fieldname,
+                return queryset_filter_with_counts(qset, fieldname,
                                                     qfilter, model, counts)
         # no usable stats table
         # we fall back to queryset.get_tagged_fields()
@@ -127,12 +109,8 @@ class Tagged(models.Model):
             counts=counts, qfilter=qfilter)
 
     class Meta:
-        """
-        Abstract model.
-        """
+        "Abstract model."
         abstract = True
 
     class Taggable:
-        """ TODO: Taggable subclass docstring
-        """
         pass

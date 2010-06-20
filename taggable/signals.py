@@ -7,10 +7,9 @@ def _handler_obj_delete(signal, sender, instance, **named):
     """ Removes all related tagged stats objects
 
     Called when a tagged/tag object is delete()d
-
     """
     try:
-        # we assume that if we have a this property, we're fine
+        # we assume that if we have this property, we're fine
         instance.taggable_on_delete
     except AttributeError:
         # this is not an object associated to a Tagged model
@@ -24,8 +23,8 @@ def _handler_obj_delete(signal, sender, instance, **named):
 
 
 def _handler_tagged_subclass(signal, sender, **named):
-    """ Handler for the class_prepared signal.
-    """
+    "Handler for the class_prepared signal."
+
     from taggable.models import Tagged
 
     if not issubclass(sender, Tagged):
@@ -69,7 +68,6 @@ def _handler_tagged_subclass(signal, sender, **named):
 
 
 def register():
-    """Internal function to register all known signals
-    """
+    "Internal function to register all known signals"
     models.signals.class_prepared.connect(_handler_tagged_subclass)
     models.signals.pre_delete.connect(_handler_obj_delete)
